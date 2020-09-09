@@ -34,7 +34,7 @@ e.grid(row=2, column=0, columnspan=3, padx=10, pady=10)
 myLabel = Label(root, text="Hello Sheikho")  # labeling
 myLabel.grid(row=0,column=0)
 
-e.insert(0, "Enter today's search?")
+e.insert(0, END)
 e.get()
 
 
