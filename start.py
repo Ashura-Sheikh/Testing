@@ -4,6 +4,11 @@ import tkinter as tk
 # Creating a new window
 def create_window():
     window = tk.Toplevel(root)
+    window.title("New-window")
+    window.geometry("500x500")
+    window.configure(bg='black')
+    window = tk.Button(window, text="what would you like to put here?").grid(row=0)
+
 
 root = tk.Tk()
 create_new = tk.Button(root, text="Create new window", command=create_window)
