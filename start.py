@@ -23,7 +23,7 @@ root.geometry("400x600")
 
 
 
-e = Entry(root, width=55, borderwidth=5) # Entry input
+e = Entry(root, width=50, borderwidth=5) # Entry input
 e.grid(row=2, column=0, columnspan=3, padx=10, pady=10)
 
 myLabel = Label(root, text="Hello Sheikho")  # labeling
