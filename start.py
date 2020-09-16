@@ -83,4 +83,4 @@ button_4.grid(row=6, column=1)
 
 
 
-root.mainloop() # usingto loop the GUI consintently
+root.mainloop() # using to loop the GUI consintently

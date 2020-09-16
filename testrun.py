@@ -5,7 +5,7 @@ class testOverlap(Frame):
     def __init__(self, root):
         Frame.__init__(self, root)
         self.root = root
-        
+
 
         self.topButtons()
 
