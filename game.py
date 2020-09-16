@@ -13,6 +13,7 @@ my_file = open("data.csv", "w") as my_file:
 
 
 
+
 while (True):
   Name = input("Enter Name: ")
   Age = input("Enter Age: ")
