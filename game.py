@@ -1,4 +1,4 @@
-import csv
+#import csv
 
 class User():
 
@@ -8,7 +8,7 @@ class User():
         self.email = Email
 
 
-my_file = open("data.csv", "w") as my_file:
+my_file = open("Data1.txt", "w")
 
 
 
@@ -19,8 +19,8 @@ while (True):
   Age = input("Enter Age: ")
   Email = input("Enter E-mail Address: ")
 
-  my_file.write("\r\nCustomer Name:  "+Name+")
-  my_file.write("\r\nCustomer Age:   "+Age+")
-  my_file.write("\r\nCustomer E-mail Address:  "+Email")
+  my_file.write[Name]
+  my_file.write[Age]
+  my_file.write[Email]
 
   my_file.close()

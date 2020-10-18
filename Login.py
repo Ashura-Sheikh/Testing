@@ -72,5 +72,5 @@ Entry(window, textvariable=password).place(x=15, y=160)
 Button(window, text="Submit", width="7",fg="Green", bg="Black", command= register).place(x=15, y=190)
 
 
-# Looping through UI 
+# Looping through UI
 window.mainloop()

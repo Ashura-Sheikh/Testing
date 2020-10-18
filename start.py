@@ -7,12 +7,17 @@ def create_window():
     window.title("New-window")
     window.geometry("500x500")
     window.configure(bg='black')
-    window = tk.Button(window, text="what would you like to put here?").grid(row=0)
+    window = tk.Button(window, text="Shall we start then?").grid(row=0)
+    #label_c = tk.Label(window, text="Files kept here for Work-Purposes", fg="green", bg="black", command=add_file)
+    #label.grid(row=1, column=1, padx=10, pady=5)
 
 
 root = tk.Tk()
-create_new = tk.Button(root, text="Create new window", command=create_window)
+create_new = tk.Button(root, text="Open-Files",fg="green", bg="black", command=create_window)
 create_new.grid(row=2, column=6)
+
+#def add_file():
+    #return None
 
 def new_task():
     new_task = tk.StringVar(window)
@@ -20,25 +25,18 @@ def new_task():
 
 
 
-
-
-root.title("How can I help you Today?",)
+root.title("Shall we go to War?",)
 root.configure(bg='black')
 root.geometry("400x600")
-
-
 
 e = Entry(root, width=50, borderwidth=5) # Entry input
 e.grid(row=2, column=0, columnspan=3, padx=10, pady=10)
 
-myLabel = Label(root, text="Hello Sheikho")  # labeling
+myLabel = Label(root, text="Ashura-Corp",fg="green", bg="black")  # labeling
 myLabel.grid(row=0,column=0)
 
 e.insert(0, END)
 e.get()
-
-
-
 
 class button_click():
 
@@ -47,12 +45,10 @@ class button_click():
         button_click == button
         return None
 
-
-
-button_1 = Button(root, text="Pending work?", padx=10, pady=10, command=create_window)
-button_2 = Button(root, text="Project List?", padx=10, pady=10, command=create_new)
-button_3 = Button(root, text="Planning?", padx=10, pady=10, command=button_click)
-button_4 = Button(root, text="Want to chill?", padx=10, pady=10, command=button_click)
+button_1 = Button(root, text="New-Window",fg="green", bg="black", padx=10, pady=5, command=create_window)
+button_2 = Button(root, text="Project List?",fg="green", bg="black", padx=10, pady=5, command=create_new)
+button_3 = Button(root, text="Black-Book?",fg="green", bg="black", padx=10, pady=5, command=button_click)
+button_4 = Button(root, text="Youtube?",fg="green", bg="black", padx=10, pady=5, command=button_click)
 
 
 # Putting buttons as grid
